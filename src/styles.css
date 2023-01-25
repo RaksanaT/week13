@@ -2,18 +2,11 @@
   box-sizing: border-box;  
 }
 
-
-
 body {
     margin: 0;
     background-color: rgb(255, 255, 255);
 }
 
-.input {
-    border: 0.25rem;
-    border-color: blue;
-
-}
 .nav {
     background-color: rgb(117, 36, 36);
     color: rgb(253, 249, 238);
@@ -46,11 +39,48 @@ body {
 }
 
 .nav li.active {
-    background-color: rgb(87, 48, 48);
+    background-color: rgb(117, 36, 36);
 }
 
 .nav li:hover {
-    background-color: rgb(77, 8, 8);
+    background-color: rgb(117, 36, 36);
 }
 
+form {
+    border: 80px solid rgb(117, 36, 36);
+    background-color: rgb(117, 36, 36);
+    border-radius: 10px;
+    display: table;
+    margin: auto;
 
+  }
+  
+label {
+    cursor: default;
+  }
+
+
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: auto;
+    border: 10px solid #ccc;
+    
+  }
+
+  p {
+    color: antiquewhite;
+    text-align: center;
+    font-size: 150%;
+    font-style: italic;
+  }
+
+  button {
+    background-color: antiquewhite;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 150%;
+    border-radius: 10px;
+  }

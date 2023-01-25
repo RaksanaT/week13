@@ -1,10 +1,9 @@
 import React from 'react';
-import Navbar from './Navbar';
-
 
 export default function LoginForm() {
   return(
-    <form >
+  <h3> 
+     <form>
       <label>
         <p>Username</p>
         <input type="text" />
@@ -14,8 +13,10 @@ export default function LoginForm() {
         <input type="password" />
       </label>
       <div>
+        <br></br>
         <button type="submit">Submit</button>
       </div>
-    </form>
+     </form>
+    </h3>
   )
 }

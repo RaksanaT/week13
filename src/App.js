@@ -1,11 +1,15 @@
-import './styles.css';
-import Navbar from "./Components/Navbar";
-import LoginForm from './Components/LoginForm';
+import './styles.css'
+import Navbar from "./Components/Navbar"
+import LoginForm from './Components/LoginForm'
 
 
 function App() {
-    return <Navbar/>;
-    return <LoginForm/>;
-}
+    return (
+    <div>
+        <Navbar/>
+        <LoginForm/>
+    </div>
+  );  
+};
 
 export default App;
